@@ -5,6 +5,18 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB-Projet-Cinema", "DB-Projet-Cinema\DB-Projet-Cinema.sqlproj", "{AC3D73B9-2DE3-4E84-B32A-55834D334537}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP", "ASP", "{EF6DBDE2-5156-457C-8FF9-72F11849D500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{F092DD08-42DA-4B21-9B3E-F83297B9F2E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{E578B4D0-3A0C-47D6-9510-8AD33C451468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-Project-Cinema", "ASP-Project-Cinema\ASP-Project-Cinema.csproj", "{F2B17B01-4DA4-4AAA-8398-5D894CA104FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL-Project-Cinema", "BLL-Project-Cinema\BLL-Project-Cinema.csproj", "{969A9E2F-C755-45F0-BFF8-7B35110313DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL-Project-Cinema", "DAL-Project-Cinema\DAL-Project-Cinema.csproj", "{DAF103F1-453E-4546-8CB7-C0C9E53458E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +29,26 @@ Global
 		{AC3D73B9-2DE3-4E84-B32A-55834D334537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3D73B9-2DE3-4E84-B32A-55834D334537}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC3D73B9-2DE3-4E84-B32A-55834D334537}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F2B17B01-4DA4-4AAA-8398-5D894CA104FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B17B01-4DA4-4AAA-8398-5D894CA104FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B17B01-4DA4-4AAA-8398-5D894CA104FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B17B01-4DA4-4AAA-8398-5D894CA104FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969A9E2F-C755-45F0-BFF8-7B35110313DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969A9E2F-C755-45F0-BFF8-7B35110313DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969A9E2F-C755-45F0-BFF8-7B35110313DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969A9E2F-C755-45F0-BFF8-7B35110313DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF103F1-453E-4546-8CB7-C0C9E53458E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF103F1-453E-4546-8CB7-C0C9E53458E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF103F1-453E-4546-8CB7-C0C9E53458E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF103F1-453E-4546-8CB7-C0C9E53458E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2B17B01-4DA4-4AAA-8398-5D894CA104FF} = {EF6DBDE2-5156-457C-8FF9-72F11849D500}
+		{969A9E2F-C755-45F0-BFF8-7B35110313DA} = {F092DD08-42DA-4B21-9B3E-F83297B9F2E7}
+		{DAF103F1-453E-4546-8CB7-C0C9E53458E5} = {E578B4D0-3A0C-47D6-9510-8AD33C451468}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F6E5E14-3DE6-47D5-B21A-4786F9EC7B5B}
