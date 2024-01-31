@@ -10,10 +10,4 @@
     <ProjectReference Include="..\DAL-Project-Cinema\DAL-Project-Cinema.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Mappers\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
