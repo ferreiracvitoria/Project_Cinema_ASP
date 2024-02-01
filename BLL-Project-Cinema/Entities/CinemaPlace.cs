@@ -13,5 +13,14 @@ namespace BLL_Project_Cinema.Entities
         public string Street { get; set; }
         public string Number { get; set; }
 
+        public CinemaPlace(int id, string name, string city, string street, string number)
+        {
+            Id_CinemaPlace = id;
+            Name = name;
+            City = city;
+            Street = street;
+            Number = number;
+        }
     }
+
 }

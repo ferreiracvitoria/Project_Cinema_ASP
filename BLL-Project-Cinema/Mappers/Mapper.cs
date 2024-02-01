@@ -23,6 +23,8 @@ namespace BLL_Project_Cinema.Mappers
 
         public static DAL.CinemaPlace ToDAL(this BLL.CinemaPlace entity)
         {
+
+            /*Objet de la DAL il n'y a pas de constructeur*/
             if (entity is null) return null;
             return new DAL.CinemaPlace()
             {
@@ -36,4 +38,4 @@ namespace BLL_Project_Cinema.Mappers
         }
     }
 }
-}
+

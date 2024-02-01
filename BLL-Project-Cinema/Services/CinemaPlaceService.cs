@@ -30,12 +30,12 @@ namespace BLL_Project_Cinema.Services
 
         public int Insert(CinemaPlace data)
         {
-
+            return _repository.Insert(data.ToDAL());
         }
 
         public void Update (CinemaPlace data)
         {
-
+            _repository.Update(data.ToDAL());
         }
 
         public void Delete (int id) 
